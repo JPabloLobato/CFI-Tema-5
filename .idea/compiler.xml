@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Analisis_Genomico_Ejs_7_y_8" />
+        <module name="Herramientas_Analisis_Num_Ejs_1_2_3_4_y_5" />
+        <module name="Gestion_Info_Cientifica_Ejs_9_10_11_y_12" />
       </profile>
     </annotationProcessing>
   </component>
