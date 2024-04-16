@@ -9,6 +9,7 @@ public class Main {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1450, 350);
         frame.setLayout(new GridLayout(3, 2, 10, 10));
+
         frame.setLocationRelativeTo(null);
 
         // Panel para el Ejercicio 1
