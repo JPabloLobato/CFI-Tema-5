@@ -1,7 +1,8 @@
 package org.example;
 
+public class SumatorioYListado {
+
     // Ej 1: Sumatorio de los primeros n números naturales
-    public class SumatorioYListado {
     public static int sumatorio(int n) {
         if(n == 1) {
             return 1;
