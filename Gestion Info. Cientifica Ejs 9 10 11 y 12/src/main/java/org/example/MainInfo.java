@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.io.File;
 
-public class Main {
+public class MainInfo {
     private static final String RUTA_CARPETA = "Textos/";
 
     public static void main(String[] args) {
@@ -13,6 +13,7 @@ public class Main {
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setSize(400, 200);
             frame.setLayout(new GridLayout(3, 1));
+            frame.setLocationRelativeTo(null);
 
             JButton btnOrganizarDocumentos = new JButton("Organización de Documentos");
             JButton btnBuscarTexto = new JButton("Búsqueda de Texto");
