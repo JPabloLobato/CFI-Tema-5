@@ -6,10 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Analisis_Genomico_Ejs_7_y_8" />
-        <module name="Herramientas_Analisis_Num_Ejs_1_2_3_4_y_5" />
-        <module name="Gestion_Info_Cientifica_Ejs_9_10_11_y_12" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Analisis_Genomico_Ejs_7_y_8" options="-proc:none" />
+      <module name="CFI-Tema-5" options="-proc:none" />
+      <module name="Gestion_Info_Cientifica_Ejs_9_10_11_y_12" options="-proc:none" />
+      <module name="Herramientas_Analisis_Num_Ejs_1_2_3_4_y_5" options="-proc:none" />
+      <module name="Optimizacion_Procesos_Ej_13" options="-proc:none" />
+    </option>
   </component>
 </project>
