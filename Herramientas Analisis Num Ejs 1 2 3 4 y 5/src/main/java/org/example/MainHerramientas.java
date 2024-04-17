@@ -3,7 +3,7 @@ package org.example;
 import javax.swing.*;
 import java.awt.*;
 
-public class Main {
+public class MainHerramientas {
     public static void main(String[] args) {
         JFrame frame = new JFrame("Herramientas de Análisis Numérico");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
