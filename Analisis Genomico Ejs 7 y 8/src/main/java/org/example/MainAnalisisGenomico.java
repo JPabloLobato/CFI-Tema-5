@@ -3,7 +3,7 @@ package org.example;
 import javax.swing.*;
 import java.awt.*;
 
-public class Main {
+public class MainAnalisisGenomico {
     public static void main(String[] args) {
         JFrame frame = new JFrame("Conteo de Genes y Combinaciones");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
